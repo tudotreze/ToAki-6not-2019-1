@@ -43,10 +43,22 @@ O proprietário do repositório *forkado* deverá acessar a seção `Settings > 
    ```
 > Se você precisou criar o arquivo `ng.bat` na seção 1, mova agora esse arquivo para dentro da pasta do repositório clonado.
 
+Entre dentro da pasta com o conteúdo do repositório:
+
+```bash
+cd ToAki-6not-2019-1
+```
+
 Configure o Angular para utilizar o `yarn` no seu projeto:
 
 ```bash
 ng config cli.packageManager yarn
+```
+
+Instale as dependências:
+
+```bash
+yarn install
 ```
 
 ## 3. Adicionando os componentes Angular Material ao projeto
@@ -92,5 +104,12 @@ Instale o pacote a seguir:
 ```bash
 ng add  @angular/pwa
 ```
+
+Essa instalação atualiza alguns arquivos e cria novos arquivos e pastas:
+* `ngsw-config.json`
+* `src/manifest.json`
+* `src/assets/`
+
+A função de cada um desses arquivos será esclarecida ao longo deste tutorial.
 
 > Novas instruções serão acrescentadas no decurso das próximas aulas. Durante a tarefa, todos os colaboradores deverão comitar seu código para o repositório do grupo. No final da tarefa, o dono do repositório fará um `pull request` para o repositório do professor.
