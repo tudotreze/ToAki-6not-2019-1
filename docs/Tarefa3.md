@@ -31,21 +31,16 @@ A versão esperada do Angular CLI, em abril de 2019, é, pelo menos, **7.3.7**.
 
 ## 2. Clonagem e configurações de trabalho em grupo
 
-Um dos membros do grupo deverá criar um repositório no [GitHub](https://github.com). A listagem com os membros de cada grupo encontra-se no [AVA](https://avafatecfranca.net.br).
+A listagem com os membros de cada grupo encontra-se no [AVA](https://avafatecfranca.net.br).
 
-O proprietário do repositório deverá acessar a seção `Settings > Collaborators` do repositório e adicionar os demais membros como colaboradores.
+Um dos membros de cada grupo deverá acessar o [repositório do professor](https://github.com/fgcintra/ToAki-6not-2019-1) e clicar sobre o botão `Fork`. O repositório *forkado* será o repositório do grupo.
 
-**Cada um dos membros do grupo** deverá clonar o repositório do professor com o comando
+O proprietário do repositório *forkado* deverá acessar a seção `Settings > Collaborators` do repositório e adicionar os demais membros como colaboradores.
+
+**Cada um dos membros do grupo** deverá clonar o repositório *forkado* com o comando
    ```bash
-   git clone https://github.com/fgcintra/ToAki-6not-2019-1.git
+   git clone <endereço_do_repo_do_grupo>
    ```
-
-**Cada um dos membros do grupo** deverá então, **dentro da pasta do repositório clonado**, executar os seguintes comandos:
-   ```bash
-   git init
-   git remote add origin <endereço_do_repo_do_grupo>
-   ```
-
 > Se você precisou criar o arquivo `ng.bat` na seção 1, mova agora esse arquivo para dentro da pasta do repositório clonado.
 
 Configure o Angular para utilizar o `yarn` no seu projeto:
