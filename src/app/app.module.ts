@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MaterialModule } from './material/material.module';
+import { GeolocalizacaoComponent } from './geolocalizacao/geolocalizacao.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GeolocalizacaoComponent
   ],
   imports: [
     BrowserModule,
