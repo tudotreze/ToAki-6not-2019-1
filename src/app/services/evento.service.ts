@@ -1,13 +1,19 @@
 import { Injectable } from '@angular/core';
-
-export class Evento {
-
-}
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-export class EventoService {
+export default class EventoService {
+  
+  constructor(private http: HttpClient) {
+    this.getJSON().subscribe(data => {
+      console.log(data);
+    });
+  }
 
-  constructor() { }
+  public getJSON(): Observable<any> {
+    return this.http.get("../../assets/data.json");
+  } 
 }
