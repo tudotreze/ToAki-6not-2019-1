@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome": "techweek",
+        "idOficina": 1,
+        "nomeOficina": "curso",
+        "localOficina": "sala 3",
+        "nomeInstrutor": "Juliana",
+        "horaInicio": "19:00",
+        "horaFim": "20:30",
+        "tempoInicio": "20",
+        "tempoFim": "20"        
+    },
+    {
+        "id": 1,
+        "nome": "techweek",
+        "idoficina": 2,
+        "nomeoficina": "workshop",
+        "localOficina": "sala 7",
+        "nomeInstrutor": "Fernando",
+        "horaInicio": "21:00",
+        "horaFim": "22:30",
+        "tempoInicio": "15",
+        "tempoFim": "15"
+    }
+]

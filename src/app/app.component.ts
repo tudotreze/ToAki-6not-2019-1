@@ -13,8 +13,6 @@ export class AppComponent {
   ) { }
 
   ngOnInit(){
-    this.eventoService.getJSON().subscribe(data => {
-      console.log(data);
-    });
+
   }
 }
