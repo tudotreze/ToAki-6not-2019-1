@@ -9,12 +9,14 @@ import { environment } from '../environments/environment';
 import { MaterialModule } from './material/material.module';
 import { GeolocalizacaoComponent } from './geolocalizacao/geolocalizacao.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { LeitorQrCodeComponent } from './leitor-qr-code/leitor-qr-code.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GeolocalizacaoComponent,
-    SidenavComponent
+    SidenavComponent,
+    LeitorQrCodeComponent
   ],
   imports: [
     BrowserModule,
